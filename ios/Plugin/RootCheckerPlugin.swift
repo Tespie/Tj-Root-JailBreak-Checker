@@ -15,4 +15,15 @@ public class RootCheckerPlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
+
+    @objc func isDeviceRooted(_ call: CAPPluginCall) {
+        // Your existing Android rooted check implementation
+        // ...
+
+        // iOS jailbreak check
+        let jailbreakChecker = TJJailbreakChecker()
+        jailbreakChecker.isDeviceJailbroken(call)
+    }
+
+
 }

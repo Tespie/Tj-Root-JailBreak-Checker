@@ -11,16 +11,17 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
+    "ios/Plugin/RootChecker.swift",
     "TjRootCheck.podspec"
   ],
   "author": "Mr. Tj Patel",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tespie.git"
+    "url": "git+https://github.com/Tespie/Tj-Root-JailBreak-Checker.git"
   },
   "bugs": {
-    "url": "https://github.com/tespie/issues"
+    "url": "https://github.com/Tespie/Tj-Root-JailBreak-Checker/issues"
   },
   "keywords": [
     "capacitor",

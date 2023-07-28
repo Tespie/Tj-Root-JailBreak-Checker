@@ -43,7 +43,7 @@ The isDeviceRooted() function returns a Promise that resolves to an object with 
 
 ## Compatibility
 This plugin is compatible with Capacitor 2.x and above.
-It supports both Android and iOS (yet to add) platforms.
+It supports both Android and iOS (build for ios pending) platforms.
 License
 This package is open-source and available under the MIT License.
 
